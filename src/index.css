@@ -1,0 +1,133 @@
+body,html{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Karla", serif;
+  font-weight: 200;
+}
+li{
+  list-style: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+/*HEADER------------------------------------*/
+header a{
+  padding: 0 2rem;
+}
+header img{
+  width: 4rem;
+}
+.login{
+  z-index: 5;
+}
+.accueil{
+  height: 100vh;
+}
+.title{
+  top:23vh;
+  left: 32%;
+  padding-right: 5rem;
+  z-index: 2;
+}
+.title p{
+  font-family: "Karla", serif;
+}
+
+h1{
+  font-family: "Julius Sans One", serif;
+  font-size: 70pt;
+  text-align: right;
+}
+.deco{
+  height: 30rem;
+  width: 15rem;
+  background-color: #660508;
+  filter: blur(1rem);
+  top: -7rem;
+  right: 0rem;
+}
+.dernierArticle img{
+  width: 99.9%;
+  height: 30rem;
+  object-fit: cover;
+}
+.dernierArticle .div, .dernierArticle .div2{
+  width: 33%;
+  height: 30rem;
+  position: relative;
+  overflow: hidden;
+}
+.a{
+  width: 96%;
+  overflow: hidden;
+}
+.dernierArticle .div2 img{
+  transition: transform 0.3s ease;
+}
+.dernierArticle .div2:hover img{
+  transform: scale(1.1);
+}
+.dernierArticle{
+  width: 100%;
+}
+.prix{
+  bottom: 0;
+  left: 3%;
+  font-size: 18pt;
+}
+.prix2{
+  z-index: 100;
+}
+.logo{
+  width: 4rem;
+  object-fit: contain;
+  padding: 0;
+  font-family: "Julius Sans One", serif;
+}
+
+.bestImage{
+  height: 85vh;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
+.h2Lipstick{
+  font-family: "Julius Sans One", serif;
+  font-size: 80pt;
+}
+.h3Lipstick{
+  font-family: "Karla", serif;
+  font-size: 25pt;
+  font-weight: 200;
+}
+/*ARTICLE UNITÉ-----------------------------------------------------*/
+.nomArticle{
+  font-family: "Karla", serif;
+}
+.imgArticle{
+  height: 85vh;
+}
+.imgArticle img{
+  object-fit: cover;
+}
+.couleur div{
+  width: 1.7rem;
+  height: 1.7rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+  border: 0.1rem solid black;
+}
+.couleur div:nth-child(1){
+  background-color: #F30008 ;
+}
+.couleur div:nth-child(2){
+  background-color: #623D2D ;
+}
+.couleur div:nth-child(3){
+  background-color: #DF3F4F ;
+}
+.couleur div:nth-child(4){
+  background-color: #B14948 ;
+}
