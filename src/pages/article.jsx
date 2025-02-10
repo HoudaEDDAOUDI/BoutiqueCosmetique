@@ -15,7 +15,7 @@ export function Article({articles}){
 
     const handlePanier = (e)=>{
         if(!currentUser){
-            navigate("/login");
+            navigate("/travaux/cosmetique/login");
         }else{
             e.preventDefault();
 

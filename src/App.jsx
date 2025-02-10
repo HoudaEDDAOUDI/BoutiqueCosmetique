@@ -17,7 +17,7 @@ const articles = [
         prix: '22€99',
         description: "Un rouge à lèvres crémeux et élégant, offrant une couvrance parfaite et une hydratation optimale. Disponible en teintes vibrantes pour sublimer votre sourire.",
         type: "RougeALevre",
-        image: '/images/rouge_a_levre1.jpg'
+        image: 'images/rouge_a_levre1.jpg'
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const articles = [
         prix: '99€99',
         description: "Un parfum audacieux aux notes florales et boisées, incarnant le luxe et l'élégance intemporelle pour une allure irrésistible.",
         type: "Parfum",
-        image: '/images/tomford.jpg'
+        image: 'images/tomford.jpg'
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ const articles = [
         prix: '78€99',
         description: "Ce rouge à lèvres iconique Chanel combine sophistication et confort, offrant une tenue impeccable et des couleurs lumineuses pour chaque occasion.",
         type: "RougeALevr",
-        image: '/images/best_seller.png'
+        image: 'images/best_seller.png'
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ const articles = [
         prix: '87€99',
         description: "Laissez-vous séduire par ce rouge à lèvres luxueux, alliant texture soyeuse et pigments riches pour un fini éclatant.",
         type: "RougeALevre",
-        image: '/images/rougeALevreCoulant.jpg'
+        image: 'images/rougeALevreCoulant.jpg'
     },
     {
         id: 5,
@@ -49,7 +49,7 @@ const articles = [
         prix: '65€99',
         description: "Une touche de velours sur vos lèvres grâce à ce rouge Chanel, alliant couleurs intenses et sensation de légèreté.",
         type: "RougeALevre",
-        image: '/images/rougeALevreChanel.jpg'
+        image: 'images/rougeALevreChanel.jpg'
     },
     {
         id: 6,
@@ -57,7 +57,7 @@ const articles = [
         prix: '34€99',
         description: "Une crème hydratante ultra-légère pour une peau douce, éclatante et revitalisée. Convient à tous les types de peau.",
         type: "Skincare",
-        image: '/images/skincarePetiteBoite.jpg'
+        image: 'images/skincarePetiteBoite.jpg'
     },
     {
         id: 7,
@@ -65,7 +65,7 @@ const articles = [
         prix: '26€99',
         description: "Un toner rafraîchissant enrichi en extraits naturels pour purifier et rééquilibrer votre peau tout en douceur.",
         type: "Skincare",
-        image: '/images/skincareBoiteAlignee.jpg'
+        image: 'images/skincareBoiteAlignee.jpg'
     },
     {
         id: 8,
@@ -73,7 +73,7 @@ const articles = [
         prix: '45€99',
         description: "Offrez à votre peau une hydratation intense avec cette crème Missha, idéale pour restaurer l'élasticité et l'éclat naturel.",
         type: "Skincare",
-        image: '/images/skincarBoiteSuperposee.jpg'
+        image: 'images/skincarBoiteSuperposee.jpg'
     },
     {
         id: 9,
@@ -81,7 +81,7 @@ const articles = [
         prix: '129€99',
         description: "Un parfum envoûtant et moderne, aux notes de café et de vanille, parfait pour révéler votre côté audacieux et mystérieux.",
         type: "Parfum",
-        image: '/images/blackOpium.jpg'
+        image: 'images/blackOpium.jpg'
     },
     {
         id: 10,
@@ -89,7 +89,7 @@ const articles = [
         prix: '89€99',
         description: "Un parfum floral raffiné et intemporel, parfait pour sublimer chaque moment avec une touche de grâce et de féminité.",
         type: "Parfum",
-        image: '/images/dior.jpg'
+        image: 'images/dior.jpg'
     }
 ];
 
@@ -101,7 +101,7 @@ function App() {
 
     const router = createBrowserRouter([
         {
-            path: '/',
+            path: '/travaux/cosmetique/',
             element: (
                 <div>
                     <div className='accueil'>
@@ -127,7 +127,7 @@ function App() {
             ),
         },
         {
-            path: '/new/:id',
+            path: '/travaux/cosmetique/new/:id',
             element: (
                 <div>
                     <Header isLoggedIn={isLoggedIn}/>
@@ -136,7 +136,7 @@ function App() {
             ),
         },
         {
-            path: '/makeup',
+            path: '/travaux/cosmetique/makeup',
             element: (
                 <div>
                     <Header isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
@@ -157,7 +157,7 @@ function App() {
             ),
         },
         {
-            path: '/skincare',
+            path: '/travaux/cosmetique/skincare',
             element: (
                 <div>
                     <Header isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
@@ -178,7 +178,7 @@ function App() {
             ),
         },
         {
-            path: '/perfume',
+            path: '/travaux/cosmetique/perfume',
             element: (
                 <div>
                     <Header isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
@@ -199,7 +199,7 @@ function App() {
             ),
         },
         {
-            path: '/signin',
+            path: '/travaux/cosmetique/signin',
             element: (
                 <div>
                     <Header isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
@@ -213,7 +213,7 @@ function App() {
             ),
         },
         {
-            path: '/login',
+            path: '/travaux/cosmetique/login',
             element: (
                 <div>
                     <Header isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
@@ -228,7 +228,7 @@ function App() {
             ),
         },
         {
-            path: '/cart',
+            path: '/travaux/cosmetique/cart',
             element: (
                 <div>
                     <Header isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>

@@ -33,7 +33,7 @@ export function SignIn({firstName, lastName, setLastName, setFirstName}){
     return <form onSubmit={handleSignup}
               className="d-flex flex-column align-items-center justify-content-center border border-4 border-white py-5">
             <div className="d-flex justify-content-center">
-                {message && <p className="bg-light-subtle w-100 px-5 py-2 rounded-3 text-dark-emphasis fw-bold">{message}<Link className="text-black fw-bold" to="/login">Veuillez vous connectez</Link> </p>}
+                {message && <p className="bg-light-subtle w-100 px-5 py-2 rounded-3 text-dark-emphasis fw-bold">{message}<Link className="text-black fw-bold" to="/travaux/cosmetique/login"> Veuillez vous connectez</Link> </p>}
             </div>
             <div className="d-flex justify-content-between">
                 <div className="d-flex flex-column align-items-start w-75 ms-5">

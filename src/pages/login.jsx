@@ -53,7 +53,7 @@ export function Login({ setIsLoggedIn}){
         </div>
         <p className="mt-3">
             Vous n'avez pas de compte ?{" "}
-            <Link to="/signup" className="fw-bold">Créez-en un ici</Link>
+            <Link to="/travaux/cosmetique/signup" className="fw-bold">Créez-en un ici</Link>
         </p>
         <button className="btn btn-light my-3 px-4">LOGIN</button>
     </form>

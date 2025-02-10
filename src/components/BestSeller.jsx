@@ -9,7 +9,7 @@ export function BestSeller({article}){
                 <h2 className="h2Lipstick m-0">{article.nom}</h2>
                 <h3 className="h3Lipstick">Best Seller</h3>
                 <p className="w-75">{article.description}</p>
-                <Link to={`/new/${article.id}`} key={article.id} className="btn btn-light">View article</Link>
+                <Link to={`/travaux/cosmetique/new/${article.id}`} key={article.id} className="btn btn-light">View article</Link>
             </div>
         </div>
     </div>

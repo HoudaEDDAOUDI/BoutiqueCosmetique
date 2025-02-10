@@ -6,11 +6,11 @@ export function HeaderLogout({ setIsLoggedIn }) {
     const handleLogout = () => {
         localStorage.removeItem("currentUser");
         setIsLoggedIn(false);
-        navigate("/login");
+        navigate("/travaux/cosmetique/");
     };
 
     return <div className="login">
-        <Link to="/cart" className="btn btn-light mx-3 " href=""><img className="w-25" src="/images/shopping-bag.png" alt=""/></Link>
+        <Link to="/travaux/cosmetique/cart" className="btn btn-light mx-3 " href=""><img className="w-25" src="images/shopping-bag.png" alt=""/></Link>
         <button className="btn btn-outline-light px-4" onClick={handleLogout}>Logout</button>
     </div>
 }
